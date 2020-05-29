@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Covid19Solution.BoundedContext\Covid19Solution.BoundedContext.csproj" />
+    <ProjectReference Include="..\Covid19Solution.UnitOfWork\Covid19Solution.UnitOfWork.csproj" />
+    <ProjectReference Include="..\Covid19Solution.Models\Covid19Solution.Models.csproj" />
+    <ProjectReference Include="..\Covid19Solution.Infrastructure\Covid19Solution.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

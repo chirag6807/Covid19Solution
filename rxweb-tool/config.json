@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "api": "Covid19Solution.Api",
+    "model": "Covid19Solution.Models",
+    "context": "Covid19Solution.BoundedContext",
+    "domain": "Covid19Solution.Domain",
+	"unitOfWork": "Covid19Solution.UnitOfWork",
+    "infrastructure": "Covid19Solution.Infrastructure",
+    "azureFunctionHttp":"",
+    "portal":"",
+    "azureFunctionBackground":""
+  },
+  "path": {
+    "dbConnection": {
+      "main": "Database.ConnectionString.Main"
+    },
+    "folder": {
+      "model": "DbEntities",
+      "context": "",
+	  "enums": "",
+	  "localizeValidationMessage": "wwwroot"
+    }
+  },
+  "annotations": {
+    "rxweb": false
+  },
+  "config": {
+    "generateEnums": false,
+    "commanTableSchema": "dbo",
+    "validationMessageLocalizationId": "15"
+  }
+}
